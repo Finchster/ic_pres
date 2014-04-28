@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Russo+One|Maven+Pro:900,700);
+
+.defaultsize {
+	font-size: 130%;
+}
+
+.smallfont {
+	font-size: 80%;
+}
+
+.smallfont code {
+      padding: 0.5em;
+      font-size: 19px;
+      display: block;
+      border: 1px dashed #65aaba;
+}
+
+.normalfont {
+	font-size: 90%;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 500%;
+}
+
+h2  {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+}
+
+li  {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h3  {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 80%;
+}
+
+.content img.sidebyside {
+  width: 40%;
+  height: 40%;
+}
+
+body {
+    font-family: "helvetica neue","helvetica","lucida grande",arial,sans-serif;
+    color: black;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.fullScreen {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+#preso, .slide {
+    background-color: transparent;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#preso, .slide {
+  border: none !important;
+}
+
+#preso .light-on-dark h2 {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    left: 3em;
+}
